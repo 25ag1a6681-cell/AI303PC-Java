@@ -8,5 +8,8 @@ class Firstjava{
           int y = a.nextInt();
           var check = Math.random();
           System.out.println(check);
+          System.out.println(y);
+          System.out.println(x);
+          a.close();
     }
 }

@@ -19,6 +19,6 @@ class jaggedarray{
                 System.out.println(s+"");
             }
         }
-    
+    sc.close();
 }
 }

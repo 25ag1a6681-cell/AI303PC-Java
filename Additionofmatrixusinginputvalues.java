@@ -1,5 +1,5 @@
 import java.util.*;
-class sixthjava{
+class Additionofmatrixusinginputvalues{
     public static void main(String...args){
         Scanner sc = new Scanner(System.in);
         int [][] arr= new int[3][];
@@ -37,5 +37,5 @@ class sixthjava{
         for(int [] k: result){
             for(int s: k){
                 System.out.println(s);
-    }}
+    }}sc.close();
     }}

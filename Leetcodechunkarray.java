@@ -2,7 +2,6 @@ import java.util.Scanner;
 import java.util.Arrays;
 class chunk{
     public static void chunkarray(int [] nums,int siz){
-        Scanner sd = new Scanner(System.in);
         int flag = 0;
         int [][] chunk = new int[nums.length][siz];
         for(int i=0;i<nums.length;i+=siz){
@@ -32,5 +31,6 @@ class chunk{
         System.out.println("Enter the sub array size:");
         int size=sc.nextInt();
         chunkarray(arr,size);
+        sc.close();
     }
 }
